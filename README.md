@@ -26,10 +26,9 @@ NO caso estou usando o Eclipse IDE for Java EE Developers
 
 ### 4. Apache Tomcat
 - Para desenvolver aplicativos web Java EE, precisará de um servidor web. O Apache Tomcat é uma opção popular e leve.
->- Para fazer a configuração do servidor Apache Tomcat, veja qual a versão mais atualizada que sua IDE aceita:
->  ### Usando Eclipse IDE for Java EE Developers
->  - 
->  - 
+>- Baixe o arquivo e descompacte no disco local
+>- Apos isso abra a pasta do Apache Tomcat descompatada, abra a pasta "bin" e procure e execute o arquivo "starup.bat"
+>- Para fazer a configuração do servidor Apache Tomcat, veja qual a versão mais atualizada que sua IDE aceita, no caso a versão mais atual que minha IDE aceita é a apache-tomcat-10.1.19
 
 >[Download Apache Tomcat](https://tomcat.apache.org/download-10.cgi)
 >Versão usada Apache Tomcat 10.1.19
