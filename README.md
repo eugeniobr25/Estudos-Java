@@ -12,9 +12,11 @@
 ### 2. Configurar Variáveis de Ambiente
 - Depois de instalar o JDK, você precisará configurar as variáveis de ambiente JAVA_HOME e PATH:
 
->JAVA_HOME: Aponte para o diretório de instalação do JDK (C:\Program Files\Java\jdk-21).
->
->PATH: Adicione o diretório **bin** do JDK ao seu PATH (%JAVA_HOME%\bin) e (C:\Program Files\Java\jdk-21), não exclua nada no diretorio, apenas adcione.
+>Em variaveis de sistema crie a variavel JAVA_HOME, essa deve estar toda maiuscula e separado por underscore.
+>Com a variavel de sistema JAVA_HOME aponte para o diretório de instalação do JDK (C:\Program Files\Java\jdk-21).
+
+>Em variaveis de sistema edite a variavel Path.
+>Adicione o diretório "bin" do JDK a sua variavel de sistema Path (%JAVA_HOME%\bin) e depois o diretório de instalação do JDK (C:\Program Files\Java\jdk-21), não exclua nada no diretorio, apenas adcione.
 
 ### 3. Instalar um Editor de Código ou IDE
 - Você pode optar por usar um editor de código simples, como Visual Studio Code, ou uma IDE mais completa, como IntelliJ IDEA ou Eclipse.
@@ -24,6 +26,10 @@ NO caso estou usando o Eclipse IDE for Java EE Developers
 
 ### 4. Apache Tomcat
 - Para desenvolver aplicativos web Java EE, precisará de um servidor web. O Apache Tomcat é uma opção popular e leve.
+>- Para fazer a configuração do servidor Apache Tomcat, veja qual a versão mais atualizada que sua IDE aceita:
+>  ### Usando Eclipse IDE for Java EE Developers
+>  - 
+>  - 
 
 >[Download Apache Tomcat](https://tomcat.apache.org/download-10.cgi)
 >Versão usada Apache Tomcat 10.1.19
