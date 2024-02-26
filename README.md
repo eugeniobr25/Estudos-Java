@@ -1,4 +1,6 @@
-# Este repositório é dedicado ao meus estudos da linguagem de programação Java. Aqui você encontrará recursos úteis para começar a aprender Java, bem como configurar seu ambiente de desenvolvimento.
+# Estudos Java
+
+### Este repositório é dedicado ao meus estudos da linguagem de programação Java. Aqui você encontrará recursos úteis para começar a aprender Java, bem como configurar seu ambiente de desenvolvimento.
 
 ## Configurando o Ambiente
 - Para começar a programar em Java, você precisará configurar seu ambiente de desenvolvimento. Aqui estão os passos básicos para configurar seu ambiente:
