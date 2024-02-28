@@ -66,6 +66,26 @@ NO caso estou usando o Eclipse IDE for Java EE Developers
 
 [Resolução](https://cursos.alura.com.br/forum/topico-problema-rodar-tomcat-no-eclipse-17281)
 
+- Erro na conecção da porta do Apache Tomcat
+
+>Description: The Tomcat connector configured to listen on port 8000 failed to start. The port may already be in use or the connector may be misconfigured.
+>Action: Verify the connector's configuration, identify and stop any process that's listening on port 8000, or configure this application to listen on another port.
+
+[Resolução](https://stackoverflow.com/questions/43026358/spring-boot-application-in-eclipse-the-tomcat-connector-configured-to-listen-on)
+
+- Solução usada foi apenas editar a porta no arquivo "aplication.properties", alterando 
+
+````
+server.port=8000
+````
+- para
+
+````
+server.port=8081
+````
+
+
+
 
 ### Licença
 - Este repositório é distribuído sob a licença MIT. Sinta-se à vontade para usá-lo conforme necessário.
