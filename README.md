@@ -73,13 +73,12 @@ NO caso estou usando o Eclipse IDE for Java EE Developers
 
 [Resolução](https://stackoverflow.com/questions/43026358/spring-boot-application-in-eclipse-the-tomcat-connector-configured-to-listen-on)
 
-- Solução usada foi apenas editar a porta no arquivo "aplication.properties", alterando 
+##### Solução usada foi apenas editar a porta do servidor, no arquivo "aplication.properties", alterando 
 
 ````
 server.port=8000
 ````
-- para
-
+##### para
 ````
 server.port=8081
 ````
