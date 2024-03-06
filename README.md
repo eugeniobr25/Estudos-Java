@@ -53,6 +53,8 @@ NO caso estou usando o Eclipse IDE for Java EE Developers
 ### 7. Apache Maven 
 - (...)
 
+>[Download Apache Maven](https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip)
+
 - No prompt de comando, entre no diretorio do projeto, e use o seguinte comando para buildar o projeto com o Apache Maven.
 ```
 mvn clean package
