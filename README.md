@@ -49,6 +49,22 @@ NO caso estou usando o Eclipse IDE for Java EE Developers
 ### 6. Configurar o Projeto
 - Depois de instalar o ambiente, crie um novo projeto Java em seu editor de código ou IDE preferido. Configure o Tomcat como seu servidor de aplicativos web e o PostgreSQL como seu banco de dados, conforme necessário.
 
+
+### 7. Apache Maven 
+- (...)
+
+- No prompt de comando, entre no diretorio do projeto, e use o seguinte comando para buildar o projeto com o Apache Maven.
+```
+mvn clean package
+```
+
+- Em seguida, tambem pelo prompt de comando, entre no diretorio "target" que fica dentro da pasta do projeto, no qual estara o arquivo .jar que representa o projeot buildado. Para rodar o projeto ultilize o seguinte comando.
+```
+java -jar [nome do arquivo do projeto].jar
+```
+
+>Dica: apos entrar na pasta "target", depois de escrever "java -jar " digite as 3 primeira letras do projeto e aperte tab, que o restante do nome sera autocompletado.
+
 ### Aqui estão alguns recursos úteis para aprender Java:
 
 - [Java Documentation](https://docs.oracle.com/en/java/): A documentação oficial da Oracle para a plataforma Java.
